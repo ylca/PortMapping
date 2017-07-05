@@ -35,7 +35,7 @@
     <StartupObject />
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>network_128px_1201171_easyicon.net.ico</ApplicationIcon>
+    <ApplicationIcon>128px.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Interop.NATUPNPLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -107,7 +107,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="network_128px_1201171_easyicon.net.ico" />
+    <Content Include="128px.ico" />
+    <Content Include="Screenshot\mp1.png" />
+    <Content Include="Screenshot\mp2.png" />
+    <Content Include="Screenshot\mp3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
